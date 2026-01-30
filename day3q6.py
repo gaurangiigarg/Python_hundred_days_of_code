@@ -1,0 +1,13 @@
+# Write a program to swap two numbers using a third variable.
+num1=int(input("Enter first number:\n"))
+num2=int(input("Enter second number:\n"))
+print("Before swapping:")
+print("First number is:",num1)
+print("Second number is:",num2)
+c=num2
+num2=num1
+num1=c
+print("\n")
+print("After swapping:")
+print("First number is:",num1)
+print("Second number is:",num2)
